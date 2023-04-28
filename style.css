@@ -22,3 +22,11 @@
     color: white;
   }
   
+  .nodot {
+    list-style: none;
+  }
+  
+  .timeline {
+    text-align: center;
+  }
+  
