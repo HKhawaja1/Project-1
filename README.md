@@ -31,7 +31,7 @@ The contact page has a form for users to send messages, usually for business pur
 ## Bugs
 There was an issue getting the image to be the correct size in the columns on the home page, which was fixed by adding this code to the CSS file:
 
-```css
+
 img {
   max-width: 100%;
   height: auto;
