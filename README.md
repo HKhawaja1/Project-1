@@ -54,6 +54,10 @@ The website's accessibility score was great on Lighthouse.
 
 ![Lighthouse Score Image](https://i.postimg.cc/brtgvyT0/Lighthouse.png)
 
+
+## Deployment
+I uploaded my code to github and the website can be seen on github pages - https://hkhawaja1.github.io/Project-1/
+
 ## Credits
 
 External code from w3schools was used to help build the website, and links to those resources are commented in the code. The text on each page was found online and rewritten in my own words, with links to the sources commented in the respective pages. The images used have a CC license, and the authors are attributed under each image.
