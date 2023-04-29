@@ -8,34 +8,43 @@
   </head>
   <body>
     <header>
-      <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="news.html">News</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      
-      <hr>
+      <nav>
+        <!--navigation for the page-->
+        <!-- https://www.w3schools.com/howto/howto_js_topnav.asp -->
+        <div class="topnav">
+          <a class="active" href="index.html">Home</a>
+          <a href="news.html">News</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
     </header>
     <main>
-     
+      <!--top of the page separated split in to two columns-->
+      <!-- https://www.w3schools.com/howto/howto_css_two_columns.asp -->
       <div class="row">
         <div class="column">
           <div class="center">
             <h1>What is human evolution?</h1>
           </div>
           <div class="center">
-           
+            <!-- https://humanorigins.si.edu/education/introduction-human-evolution -->
             <h3>The extended period of change that separated humans from their apelike forebears is known as human evolution. According to scientific research, the physical characteristics and behavioural features that all humans share have their roots in apelike ancestors and have been evolving for around six million years. </h3>
           </div>
         </div>
         <div class="column">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Human_Evolution_Panorama_Under_Construction_-_Science_Exploration_Hall_-_Science_City_-_Kolkata_2015-12-04_6859.jpg" width=100% alt="evolution">
-          <figcaption>Biswarup Ganguly, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons</figcaption>
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Human_Evolution_Panorama_Under_Construction_-_Science_Exploration_Hall_-_Science_City_-_Kolkata_2015-12-04_6859.jpg" alt="evolution">
+            <figcaption>
+              <a href="https://commons.wikimedia.org/wiki/File:Human_Evolution_Panorama_Under_Construction_-_Science_Exploration_Hall_-_Science_City_-_Kolkata_2015-12-04_6859.jpg" target="_blank">Biswarup Ganguly</a>, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>, via Wikimedia Commons
+            </figcaption>
+          </figure>
         </div>
         <hr>
       </div>
+      <!--main material for the page-->
+      <!--https://www.twinkl.ie/teaching-wiki/timeline-of-human-evolution-->
       <section>
-        <h1 class="timeline">Human Evolution Timeline</h1>
+        <h2 class="timeline">Human Evolution Timeline</h2>
         <ul>
           <li>
             <h2>55 million years ago</h2>
@@ -61,14 +70,18 @@
           <li class="nodot">
             <h4>Ardipithecus, a primate, has characteristics with chimps and gorillas. The habitat of this species is forests.</h4>
           </li>
-          <div class="row">
-            <div class="column">
-              <figure>
-                <img src="assets/ardipitehcus.png" width=100% alt="ardipithecus">
-                <figcaption>William Daniel Snyder, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons </figcaption>
-              </figure>
-            </div>
+        </ul>
+        <div class="row">
+          <div class="column">
+            <figure>
+              <img src="assets/ardipitehcus.png" alt="ardipithecus">
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Nut_cracking_Ardipithecus.png" target="_blank">William Daniel Snyder</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>, via Wikimedia Commons
+              </figcaption>
+            </figure>
           </div>
+        </div>
+        <ul>
           <li>
             <h2>4 million years ago</h2>
           </li>
@@ -93,14 +106,6 @@
           <li class="nodot">
             <h4>Homo habilis, the species, first appears. The face of this species is notably less projecting yet nevertheless retains many characteristics with apes. During this time, hominids also started using stone tools more often, which they made by breaking stones. At this stage in the evolution of humans, certain hominids also started consuming a lot of meat. Due to the increase in meat eating and the resulting increase in energy, hominids were able to grow their brains bigger.</h4>
           </li>
-          <div class="row">
-            <div class="column">
-              <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Homo_habilis_-_forensic_facial_reconstruction.png" width=100% alt="homo-habilis">
-                <figcaption>Cicero Moraes, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons </figcaption>
-              </figure>
-            </div>
-          </div>
           <li>
             <h2>2 million years ago</h2>
           </li>
@@ -125,14 +130,18 @@
           <li class="nodot">
             <h4>The Homo Heidelbergensis species is currently found throughout Africa and Europe. The brain size of this primate species was quite similar to our own.</h4>
           </li>
-          <div class="row">
-            <div class="column">
-              <figure>
-                <img src="https://i.postimg.cc/SKwXDNSz/Screenshot-at-Apr-29-02-50-46.png" width=100% alt="homo-heidelbergensis">
-                <figcaption>By Tim Evanson https://www.flickr.com/photos/23165290@N00/7283200264/</figcaption>
-              </figure>
-            </div>
+        </ul>
+        <div class="row">
+          <div class="column">
+            <figure>
+              <img src="https://i.postimg.cc/SKwXDNSz/Screenshot-at-Apr-29-02-50-46.png" alt="homo-heidelbergensis">
+              <figcaption>
+                <a href="https://www.flickr.com/photos/23165290@N00/7283200264/" target="_blank">By Tim Evanson</a>
+              </figcaption>
+            </figure>
           </div>
+        </div>
+        <ul>
           <li>
             <h2>500,000 years ago</h2>
           </li>
@@ -163,15 +172,18 @@
           <li class="nodot">
             <h4>Neanderthals start to appear around this time. They can be found all over Europe, from Iran to Britain. When the arrival of modern humans about 280,000 years ago, they finally go extinct.</h4>
           </li>
-          <div class="row">
-            <div class="column">
-              <figure>
-                <img src="assets/neanderthal.jpg" width=100% alt="neanderthal">
-                <figcaption>Neanderthal-Museum, Mettmann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons </figcaption>
-              </figure>
-            </div>
+        </ul>
+        <div class="row">
+          <div class="column">
+            <figure>
+              <img src="assets/neanderthal.jpg" alt="neanderthal">
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis-Mr._N.jpg" target="_blank">Neanderthal-Museum, Mettmann </a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>, via Wikimedia Commons
+              </figcaption>
+            </figure>
           </div>
-          </div>
+        </div>
+        <ul>
           <li>
             <h2>195,000 years ago</h2>
           </li>
@@ -214,14 +226,18 @@
           <li class="nodot">
             <h4>On Flores, an Indonesian island, there is a species of diminutive, prehistoric humans known as Homo Floresiensis. These prehistoric people are little over a meter tall, and their brains are around the same size as chimpanzees'. But unlike chimps, these people did have sophisticated stone tools.</h4>
           </li>
-          <div class="row">
-            <div class="column">
-              <figure>
-                <img src="assets/homo-floresiensis.jpg" width=100% alt="homo-floresiensis">
-                <figcaption>Cicero Moraes et alii, CC BY 4.0 <https: //creativecommons.org/licenses/by/4.0>, via Wikimedia Commons </figcaption>
-              </figure>
-            </div>
+        </ul>
+        <div class="row">
+          <div class="column">
+            <figure>
+              <img src="assets/homo-floresiensis.jpg" alt="homo-floresiensis">
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Homo_floresiensis_v_2-0.jpg" target="_blank">Cicero Moraes et alii</a>, <a href="https://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a>, via Wikimedia Commons
+              </figcaption>
+            </figure>
           </div>
+        </div>
+        <ul>
           <li>
             <h2>12,000 years ago</h2>
           </li>
@@ -253,10 +269,12 @@
             <h4>The Mesopotamian Ancient Sumerians create the world's first civilization.</h4>
           </li>
         </ul>
+        <!--video-->
         <iframe width="853" height="505" src="https://www.youtube.com/embed/2W5hOJaFjxU"></iframe>
       </section>
     </main>
     <hr>
+    <!--footer at bottom of page-->
     <footer>
       <p>&copy; 2023 Hamzah Khawaja. All rights reserved.</p>
     </footer>
