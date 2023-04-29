@@ -33,6 +33,10 @@ body {
     color: white;
   }
   
+  /* 
+  Makes image fit in the container
+  https://www.w3schools.com/cssref/pr_dim_max-width.php 
+  */
   img {
     max-width: 100%;
     height: auto;
@@ -97,7 +101,9 @@ body {
     max-height: 100%;
   }
   
-  /* For screens smaller than 768px */
+  /* For screens smaller than 768px
+  https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+  */
   @media (max-width: 768px) {
     .center {
       padding-right: 50px;
