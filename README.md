@@ -24,7 +24,7 @@ The news page provides up-to-date information on human evolution, perfect for an
 ![News Page Image](https://i.postimg.cc/05nDpJ66/News.png)
 
 ## Contact Page
-The contact page has a form for users to send messages, usually for business purposes. The form includes three fields: Name, Email, Subject, and Message. Each field is required, and if left blank, a message will appear.
+The contact page has a form for users to send messages, usually for business purposes. The form includes three fields: Name, Email, Subject, and Message. Each field is required, and if left blank, a message will appear. I used w3schools to help me create this https://www.w3schools.com/html/html_forms.asp
 
 ![Contact Page Image](https://i.postimg.cc/6Qx8s92J/Contact.png)
 
